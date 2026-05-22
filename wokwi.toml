@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = 'Sensor Grow/build/Sensor Grow.ino.bin'
+elf = 'Sensor Grow/build/Sensor Grow.ino.elf'
+rfc2217ServerPort = 4000
+
+[[net.forward]]
+from = "localhost:8180"
+to = "target:80"
